@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
-    return "Sample Flask app To test Git changes"
+    return "CI CD pipeline got created"
 
 if __name__ == "__main__":
     app.run(debug=True)
